@@ -1,0 +1,73 @@
+#register{
+    padding: 82px 0;
+    border-radius: 40px;
+background: var(--primary-colour, #3A0CA3);
+color: #fff; 
+margin-bottom: 180px;
+}
+
+.register-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.register-box h3{
+    font-size: 39.8px;
+font-style: normal;
+font-weight: 600;
+line-height: 47px;
+margin-bottom: 30px;
+}
+
+.register-box p{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.register-btn {
+border-radius: 30px;
+border: 1px solid var(--primary-colour, #3A0CA3);
+background: var(--white, #FFF);   
+}
+
+.register-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.register-box img{
+    transform: scale(1.1);
+    position: absolute;
+    left: 20px  ;
+    bottom: -67px;
+
+}
+
+
+
+.title-ellips-border{
+     position: relative;
+     border: 1px solid red; 
+     overflow: hidden;
+}
+
+.title-ellips{
+    border-radius: 100px;
+    opacity: 0.5;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    transform: scale(3) rotate(30deg);
+    position:absolute;
+    top: -110px ;
+    left: 1200px;
+}
